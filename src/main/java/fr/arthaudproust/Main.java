@@ -1,4 +1,4 @@
-package fr.arthaudproust.webcam;
+package fr.arthaudproust;
 
 
 import java.awt.image.BufferedImage;
@@ -9,6 +9,8 @@ public class Main {
     private static final Webcam webcam = new Webcam();
 
     public static void main(String[] args) throws Exception {
+        System.out.println("Starting app");
+
         webcam.startRecording();
         ui.open();
 

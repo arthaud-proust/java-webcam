@@ -1,4 +1,4 @@
-package fr.arthaudproust.webcam;
+package fr.arthaudproust;
 
 import org.bytedeco.javacv.CanvasFrame;
 
@@ -9,7 +9,7 @@ import java.awt.image.BufferedImage;
 public class Ui {
     private CanvasFrame canvas;
     private boolean isFirstImageUpdate = true;
-    
+
     public void open() {
         canvas = new CanvasFrame("Web Cam");
         canvas.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

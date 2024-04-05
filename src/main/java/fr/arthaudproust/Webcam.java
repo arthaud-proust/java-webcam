@@ -1,4 +1,4 @@
-package fr.arthaudproust.webcam;
+package fr.arthaudproust;
 
 
 import org.bytedeco.javacv.Frame;
